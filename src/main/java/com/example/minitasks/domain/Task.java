@@ -43,4 +43,10 @@ public class Task {
     public void setDone(boolean done) {
         this.done = done;
     }
+
+    public Task(Long id, String title, boolean done) {
+        this.id = id;
+        this.title = title;
+        this.done = done;
+    }
 }
